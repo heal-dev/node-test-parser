@@ -9,8 +9,8 @@
       "todo": false,
       "error": {
         "failureType": "testCodeFailure",
-        "cause": {},
-        "code": "ERR_TEST_FAILURE"
+        "code": "ERR_TEST_FAILURE",
+        "cause": {}
       }
     },
     {
@@ -42,14 +42,14 @@
                   "todo": false,
                   "failure": {
                     "failureType": "testCodeFailure",
+                    "code": "ERR_TEST_FAILURE",
                     "cause": {
                       "generatedMessage": true,
                       "code": "ERR_ASSERTION",
                       "actual": 1,
                       "expected": 2,
                       "operator": "strictEqual"
-                    },
-                    "code": "ERR_TEST_FAILURE"
+                    }
                   }
                 }
               ],
@@ -58,8 +58,8 @@
               "todo": false,
               "error": {
                 "failureType": "subtestsFailed",
-                "cause": "1 subtest failed",
-                "code": "ERR_TEST_FAILURE"
+                "code": "ERR_TEST_FAILURE",
+                "cause": "1 subtest failed"
               }
             }
           ],
@@ -68,8 +68,8 @@
           "todo": false,
           "error": {
             "failureType": "subtestsFailed",
-            "cause": "1 subtest failed",
-            "code": "ERR_TEST_FAILURE"
+            "code": "ERR_TEST_FAILURE",
+            "cause": "1 subtest failed"
           }
         }
       ],
@@ -78,8 +78,8 @@
       "todo": false,
       "error": {
         "failureType": "subtestsFailed",
-        "cause": "1 subtest failed",
-        "code": "ERR_TEST_FAILURE"
+        "code": "ERR_TEST_FAILURE",
+        "cause": "1 subtest failed"
       }
     },
     {
@@ -108,8 +108,8 @@
       "todo": false,
       "error": {
         "failureType": "testTimeoutFailure",
-        "cause": "test timed out after 100ms",
-        "code": "ERR_TEST_FAILURE"
+        "code": "ERR_TEST_FAILURE",
+        "cause": "test timed out after 100ms"
       }
     },
     {
