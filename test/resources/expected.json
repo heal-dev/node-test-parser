@@ -8,8 +8,8 @@
       "skip": false,
       "todo": false,
       "error": {
-        "failureType": "testCodeFailure",
         "code": "ERR_TEST_FAILURE",
+        "failureType": "testCodeFailure",
         "cause": {}
       }
     },
@@ -41,8 +41,8 @@
                   "skip": false,
                   "todo": false,
                   "failure": {
-                    "failureType": "testCodeFailure",
                     "code": "ERR_TEST_FAILURE",
+                    "failureType": "testCodeFailure",
                     "cause": {
                       "generatedMessage": true,
                       "code": "ERR_ASSERTION",
@@ -57,8 +57,8 @@
               "skip": false,
               "todo": false,
               "error": {
-                "failureType": "subtestsFailed",
                 "code": "ERR_TEST_FAILURE",
+                "failureType": "subtestsFailed",
                 "cause": "1 subtest failed"
               }
             }
@@ -67,8 +67,8 @@
           "skip": false,
           "todo": false,
           "error": {
-            "failureType": "subtestsFailed",
             "code": "ERR_TEST_FAILURE",
+            "failureType": "subtestsFailed",
             "cause": "1 subtest failed"
           }
         }
@@ -77,8 +77,8 @@
       "skip": false,
       "todo": false,
       "error": {
-        "failureType": "subtestsFailed",
         "code": "ERR_TEST_FAILURE",
+        "failureType": "subtestsFailed",
         "cause": "1 subtest failed"
       }
     },
@@ -107,8 +107,8 @@
       "skip": false,
       "todo": false,
       "error": {
-        "failureType": "testTimeoutFailure",
         "code": "ERR_TEST_FAILURE",
+        "failureType": "testTimeoutFailure",
         "cause": "test timed out after 100ms"
       }
     },
